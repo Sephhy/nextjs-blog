@@ -1,0 +1,20 @@
+
+:root {
+    --bg: rgb(163, 185, 169);;
+    --text:rgb(2, 3, 3);
+}
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.container {
+    background-color: var(--bg);
+    min-width: 100vw;
+    margin:  auto;
+   
+    min-height:100vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+

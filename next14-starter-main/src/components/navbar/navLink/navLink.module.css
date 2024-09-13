@@ -1,0 +1,19 @@
+.links {
+    margin:0 2rem;
+    text-decoration: none;
+    color: var(--text);
+  
+}
+
+.links:hover {
+    color:white;
+}
+
+
+.active {
+    background-color:rgb(72, 179, 90);
+    padding: 0 10px;
+    border-radius: 1rem;
+    color:black;
+  
+}
